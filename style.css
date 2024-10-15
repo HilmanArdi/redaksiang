@@ -1,0 +1,102 @@
+/* Sticky Navbar */
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000; /* Ensure it stays on top of other content */
+}  
+
+/* General Styles */
+
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .hero-section {
+    background-color: #f8f9fa;
+  }
+  
+  .hero-content h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  
+  .hero-content p {
+    font-size: 1.2rem;
+  }
+  
+  .hero-content a {
+    font-size: 1rem;
+  }
+  
+  .news-article img {
+    max-height: 300px;
+    object-fit: cover;
+  }
+  
+  .news-article h3 {
+    font-size: 1.75rem;
+    margin-top: 15px;
+  }
+  
+  .sidebar h4 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+  }
+  
+  .sidebar ul {
+    padding-left: 0;
+  }
+  
+  .sidebar ul li {
+    margin-bottom: 10px;
+  }
+  
+  .sidebar ul li a {
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  .sidebar ul li a:hover {
+    text-decoration: underline;
+  }
+
+  .sidebar ul.list-group li {
+    margin-bottom: 10px; /* Memberi sedikit jarak antara item */
+  }
+  
+  .sidebar ul.list-group li a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  .sidebar ul.list-group li a:hover {
+    text-decoration: underline;
+  }
+  
+  .sidebar ul.list-group li p {
+    margin: 0;
+  }
+
+  .main-content {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .content-wrapper {
+    flex-grow: 1;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+
+  html, body {
+    height: 100%;
+  }
